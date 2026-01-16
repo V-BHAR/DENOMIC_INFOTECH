@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Denomic Infotech | Premium Digital Solutions</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Denomic Infotech - Complete digital solutions for business growth. Web development, digital marketing, SEO, Shopify, WordPress, and more. Contact +91 96879 39701">
+    <meta name="keywords" content="Denomic Infotech, digital marketing, web development, SEO, Shopify, WordPress, graphic design, social media marketing, WhatsApp marketing, email marketing, digital agency, business growth">
+    <meta name="author" content="Denomic Infotech">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://denomicinfotech.com">
+    <meta property="og:title" content="Denomic Infotech | Premium Digital Solutions">
+    <meta property="og:description" content="Complete digital solutions to grow your business online. Web development, digital marketing, SEO, and more.">
+    <meta property="og:image" content="https://denomicinfotech.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Denomic Infotech">
+    <meta property="og:locale" content="en_IN">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://denomicinfotech.com">
+    <meta property="twitter:title" content="Denomic Infotech | Premium Digital Solutions">
+    <meta property="twitter:description" content="Complete digital solutions to grow your business online.">
+    <meta property="twitter:image" content="https://denomicinfotech.com/twitter-image.jpg">
+    <meta name="twitter:creator" content="@denomic_infotech">
+    
+    <!-- Apple / iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Denomic Infotech">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Android / Chrome -->
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Microsoft / Windows -->
+    <meta name="msapplication-TileColor" content="#4f46e5">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    
+    <!-- PWA -->
+    <meta name="application-name" content="Denomic Infotech">
+    <meta name="format-detection" content="telephone=yes">
+    
+    <!-- SEO Enhancements -->
+    <meta name="google-site-verification" content="your-verification-code">
+    <meta name="yandex-verification" content="your-verification-code">
+    <meta name="p:domain_verify" content="your-verification-code">
+    <meta name="facebook-domain-verification" content="your-verification-code">
+    
+    <!-- Business/Company Schema -->
+    <meta name="business:contact_data:street_address" content="Your Street">
+    <meta name="business:contact_data:locality" content="Your City">
+    <meta name="business:contact_data:region" content="Your State">
+    <meta name="business:contact_data:postal_code" content="Your ZIP">
+    <meta name="business:contact_data:country_name" content="India">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN-GJ">
+    <meta name="geo.placename" content="Gujarat">
+    <meta name="geo.position" content="23.0225;72.5714">
+    <meta name="ICBM" content="23.0225, 72.5714">
+    
+    <!-- Canonical & Alternate -->
+    <link rel="canonical" href="https://denomicinfotech.com">
+    <link rel="alternate" href="https://denomicinfotech.com" hreflang="en">
+    <link rel="alternate" href="https://denomicinfotech.com/hi" hreflang="hi">
+    
+    <!-- Preload & Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Title -->
+    <title>Denomic Infotech | Premium Digital Solutions Agency</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <style>
 :root{
   --bg: linear-gradient(135deg, #f0f7ff 0%, #f8fbff 100%);
   --text: #1a1a2e;
@@ -50,7 +141,7 @@ body.dark{
 }
 
 body{
-  font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: var(--bg);
   color:var(--text);
   transition:var(--transition);
@@ -336,6 +427,38 @@ body.dark .theme-toggle span{
   color:var(--primary);
 }
 
+/* QR Code Section */
+.qr-container {
+  text-align: center;
+  margin: 30px 0;
+  padding: 25px;
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), rgba(244, 63, 94, 0.1));
+  border-radius: var(--radius);
+  border: 2px dashed var(--primary-light);
+}
+.qr-container h3 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.qr-code {
+  display: inline-block;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+.qr-code img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+.qr-note {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
 /* Enhanced Contact */
 .contact{
   text-align:center;
@@ -443,6 +566,28 @@ body.dark .theme-toggle span{
   margin-right:15px;
 }
 
+/* Email Signature Preview */
+.email-signature {
+  background: var(--card);
+  padding: 25px;
+  border-radius: var(--radius);
+  margin: 30px auto;
+  max-width: 500px;
+  border-left: 5px solid var(--primary);
+}
+.email-signature h4 {
+  color: var(--primary);
+  margin-bottom: 15px;
+  text-align: center;
+}
+.signature-preview {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  border: 1px solid #e2e8f0;
+}
+
 /* Footer */
 .footer{
   text-align:center;
@@ -476,6 +621,10 @@ body.dark .theme-toggle span{
     width:55px;
     height:55px;
   }
+  .qr-code img {
+    width: 150px;
+    height: 150px;
+  }
 }
 @media(max-width:480px){
   .container{
@@ -494,7 +643,7 @@ body.dark .theme-toggle span{
     right:15px;
   }
 }
-</style>
+    </style>
 </head>
 
 <body>
@@ -517,7 +666,7 @@ body.dark .theme-toggle span{
 <div class="header">
   <h1>DENOMIC INFOTECH</h1>
   <p>Complete Digital Solutions to Grow Your Business Online</p>
-  <div class="badge">🚀 Transforming Businesses Since 2023</div>
+  <div class="badge">🚀 Transforming Businesses Since 2023 | 📍 Gujarat, India</div>
 </div>
 
 <!-- Services Section -->
@@ -652,6 +801,20 @@ body.dark .theme-toggle span{
   </div>
 </div>
 
+<!-- QR Code Section -->
+<div class="section">
+  <h2><i class="fas fa-qrcode"></i> Scan to Save Contact</h2>
+  <div class="qr-container">
+    <div class="qr-code">
+      <h3>Digital Business Card</h3>
+      <!-- Replace YOUR-URL-HERE with your actual URL -->
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://denomicinfotech.com&format=svg&color=4f46e5&bgcolor=ffffff&margin=10" 
+           alt="QR Code for Denomic Infotech">
+      <p class="qr-note">Scan to visit our digital business card</p>
+    </div>
+  </div>
+</div>
+
 <!-- Contact Section -->
 <div class="section contact">
   <h2><i class="fas fa-headset"></i> Contact Us</h2>
@@ -663,9 +826,23 @@ body.dark .theme-toggle span{
   </div>
 </div>
 
+<!-- Email Signature Section -->
+<div class="email-signature">
+  <h4><i class="fas fa-signature"></i> Email Signature Preview</h4>
+  <div class="signature-preview">
+    <b>Denomic Infotech</b><br>
+    Digital Solutions Partner<br>
+    📱 +91 96879 39701<br>
+    📧 contact@denomicinfotech.com<br>
+    🌐 <a href="https://denomicinfotech.com" style="color: #4f46e5; text-decoration: none;">Visit Business Card</a><br>
+    💬 <a href="https://wa.me/919687939701" style="color: #25D366; text-decoration: none;">WhatsApp</a>
+  </div>
+</div>
+
 <!-- Footer -->
 <div class="footer">
   <p>© 2023 Denomic Infotech. All rights reserved. | Transforming Digital Presence Across India</p>
+  <p style="margin-top: 10px; font-size: 0.8rem;">Digital Solutions | Web Development | Digital Marketing | SEO | Social Media Management</p>
 </div>
 
 </div>
@@ -725,6 +902,76 @@ document.querySelectorAll('.section').forEach(section => {
   section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
   observer.observe(section);
 });
+
+// Copy Email Signature
+document.addEventListener('DOMContentLoaded', function() {
+  const signaturePreview = document.querySelector('.signature-preview');
+  signaturePreview.addEventListener('click', function() {
+    const signatureHTML = `<b>Denomic Infotech</b><br>
+Digital Solutions Partner<br>
+📱 +91 96879 39701<br>
+📧 contact@denomicinfotech.com<br>
+🌐 <a href="https://denomicinfotech.com">Visit Business Card</a><br>
+💬 <a href="https://wa.me/919687939701">WhatsApp</a>`;
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(signatureHTML.replace(/<br>/g, '\n').replace(/<[^>]*>/g, ''))
+      .then(() => {
+        alert('Email signature copied to clipboard! Paste it in your email settings.');
+      });
+  });
+});
+</script>
+
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Denomic Infotech",
+  "description": "Complete digital solutions agency providing web development, digital marketing, SEO, and social media management services.",
+  "url": "https://denomicinfotech.com",
+  "logo": "https://denomicinfotech.com/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Gujarat",
+    "addressCountry": "India"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9687939701",
+      "contactType": "Customer Service",
+      "availableLanguage": ["English", "Hindi", "Gujarati"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9328527474",
+      "contactType": "Sales"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/denomic_infotech",
+    "https://wa.me/919687939701"
+  ],
+  "service": [
+    {
+      "@type": "Service",
+      "name": "Web Development",
+      "description": "Professional business website development"
+    },
+    {
+      "@type": "Service",
+      "name": "Digital Marketing",
+      "description": "Complete digital marketing solutions"
+    },
+    {
+      "@type": "Service",
+      "name": "SEO Services",
+      "description": "Search Engine Optimization services"
+    }
+  ]
+}
 </script>
 
 </body>
